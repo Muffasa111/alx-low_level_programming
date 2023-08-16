@@ -1,13 +1,28 @@
 #include "main.h"
 
+#include "stdio.h"
+
 /**
- * add - adds two values
- * @n1: first number to be computed
- * @n2: second number to be computed
- * Return: integer value
+ * print_to_98 - prints all natural numbers from n to 98
+ * @n: number to start printing from
+ * Return: Always 0
  */
 
-int add(int n1, int n2)
+void print_to_98(int n)
+
 {
-	return (n1 + n2);
+	if (n <= 98)
+	for (; n <= 98; n++)
+	{
+	if (n == 98)
+	{
+	printf("%d, n);
+	printf("\n");
+	break;
+	}
+	else
+	{
+	printf(" % d, ", n);
+	}
+	}
 }
